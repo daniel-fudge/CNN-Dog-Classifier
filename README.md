@@ -3,7 +3,7 @@ This repo trains a Convolutional Neural Network (CNN) to classify the breed of d
 for this program was the 2nd project in the Udacity Deep Learning 
 [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
 
-## How to run
+## How to run on AWS
 This project can be executed directly from within the [dog_app.ipynb](dog_app.ipynb) Jupyter notebook.  Due to the time 
 required to train the CNN, it is recommended that a GPU is used.  The output shown in the report and notebook were 
 generated on AWS' Deep Learning AMI (Ubuntu 18.04) Version 26.0 with a p2.xlarge instance.
@@ -46,10 +46,24 @@ http://[some_ip]:8888/?token=[your_token].
    #### From your local PC
 1. Connect to the notebook from your browser by replacing [some_ip] with your instances IPv4 Public IP.
 
-1. Open `dog_app.ipynb`
+1. Open `dog_app.ipynb`.
 
-2. Read and/or run the cells at your leisure!!  :)
+1. Read and/or run the cells at your leisure!!  :)
 
+## How to run on Local PC
+Although it is not recommended to train on a local PC, you may want to run locally to debug.  The following steps 
+assumes you have your Python 3 environment setup for PyTorch, cv2 and Jupyter notebooks.
+
+1. Clone repo to PC and unzip the [human](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip) and 
+[dog](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip) images into the cloned 
+`CNN-Dog-Classifer` folder.
+
+1. Open a terminal in the `CNN-Dog-Classifer` folder and exceute the `jupyter notebook` command.
+
+1. Open `dog_app.ipynb`.
+
+1. Read and/or run the cells at your leisure!!  :)
+ 
 ## Report
 A [report](report.pdf) was generated from the [Jupyter Notebook](dog_app.ipynb) for those who prefer pdf files.
 
