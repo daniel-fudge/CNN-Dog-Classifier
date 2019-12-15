@@ -44,7 +44,7 @@ generated on AWS' Deep Learning AMI (Ubuntu 18.04) Version 26.0 with a p2.xlarge
 http://[some_ip]:8888/?token=[your_token].
    
    #### From your local PC
-1. Connect to the notebook from your browser by [some_ip] with your instances IPv4 Public IP.
+1. Connect to the notebook from your browser by replacing [some_ip] with your instances IPv4 Public IP.
 
 1. Open `dog_app.ipynb`
 
