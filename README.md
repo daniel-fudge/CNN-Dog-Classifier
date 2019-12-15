@@ -51,14 +51,29 @@ http://[some_ip]:8888/?token=[your_token].
 1. Read and/or run the cells at your leisure!!  :)
 
 ## How to run on Local PC
-Although it is not recommended to train on a local PC, you may want to run locally to debug.  The following steps 
-assumes you have your Python 3 environment setup for PyTorch, cv2 and Jupyter notebooks.
+Although it is not recommended to train on a local PC, you may want to run locally to debug.  
 
 1. Clone repo to PC and unzip the [human](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip) and 
 [dog](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip) images into the cloned 
 `CNN-Dog-Classifer` folder.
 
-1. Open a terminal in the `CNN-Dog-Classifer` folder and exceute the `jupyter notebook` command.
+1. [OPTIONAL] Install [Anaconda3](https://www.anaconda.com/distribution/).
+
+2. [OPTIONAL] Create a virtual environment.
+   ```shell script
+   conda update conda
+   conda create -n dlnd python=3.7 
+   conda activate dlnd
+   conda install pytorch
+   conda install -c pytorch torchvision
+   conda install opencv
+   conda install matplotlib
+   conda install tqdm
+   
+1. Launch Jupyter.
+   ```shell script
+   cd CNN-Dog-Classifer
+   jupyter notebook
 
 1. Open `dog_app.ipynb`.
 

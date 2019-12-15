@@ -4,7 +4,12 @@
       <w>convolutional</w>
       <w>cuda</w>
       <w>ipynb</w>
+      <w>matplotlib</w>
       <w>nanodegree</w>
+      <w>opencv</w>
+      <w>pytorch</w>
+      <w>torchvision</w>
+      <w>tqdm</w>
       <w>udacity</w>
       <w>xlarge</w>
     </words>
