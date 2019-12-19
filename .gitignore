@@ -131,3 +131,7 @@ dmypy.json
 # Referenced input
 /lfw/
 /dogImages/
+
+# Saved model
+model_scratch.pt
+model_transfer.pt

@@ -80,7 +80,7 @@ Although it is not recommended to train on a local PC, you may want to run local
 1. Read and/or run the cells at your leisure!!  :)
  
 ## Report
-A [report](report.pdf) was generated from the [Jupyter Notebook](dog_app.ipynb) for those who prefer pdf files.
+A [report](report.html) was generated from the [Jupyter Notebook](dog_app.ipynb) for those who prefer pdf files.
 
 ## License
 This code is copyright under the [MIT License](LICENSE).
