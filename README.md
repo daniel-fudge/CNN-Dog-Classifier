@@ -62,8 +62,8 @@ Although it is not recommended to train on a local PC, you may want to run local
 2. [OPTIONAL] Create a virtual environment.
    ```shell script
    conda update conda
-   conda create -n dlnd python=3.7 
-   conda activate dlnd
+   conda create -n pytorch_p36 python=3.7 
+   conda activate pytorch_p36
    conda install pytorch
    conda install -c pytorch torchvision
    conda install opencv
